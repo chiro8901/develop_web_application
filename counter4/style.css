@@ -1,48 +1,49 @@
-body {
+body{
     text-align: center;
     font-family: Arial, sans-serif;
     margin-top: 50px;
 }
 
-h1 {
-    color: #333;
+h1{
+    color: rgb(65, 64, 64);
 }
 
-.counter-wrapper {
+.counter-wrapper{
     display: inline-block;
     padding: 15px;
     margin: 15px;
     border: 5px solid #007bff;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: white;
 }
 
-#resetButton {
+#button{
     font-size: 1.5em;
     padding: 10px 20px;
-    background-color: #e60b0b;
+    background-color: rgba(14, 216, 81, 0.87);
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-p {
-    font-size: 2em;
-    color: #007bff;
-}
-
-#countButton {
+#reset{
     font-size: 1.5em;
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: rgba(233, 11, 11, 0.87);
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #218838;
+p{
+    font-family: 2em;
+    color: blue;
+}
+
+button:hover{
+    background-color: green;
+    transform: scale(1.1);
 }
