@@ -22,8 +22,16 @@ document.addEventListener("DOMContentLoaded", function(){
             counterDisplay.textContent = count + 1;
         })
 
+        const resetButton = document.createElement("button");
+        resetButton.textContent = "リセットボタン";
+        resetButton.classList.add("reset-button");
+        resetButton.addEventListener("click", function(){
+            counterDisplay.textContent = "0";
+        })
+
         counterWrapper.appendChild(counterDisplay);
         counterWrapper.appendChild(counterButton);
+        counterWrapper.appendChild(resetButton);
         counterContainer.appendChild(counterWrapper);
         }
 })
