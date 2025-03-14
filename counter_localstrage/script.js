@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function(){
         counterContainer.appendChild(counterWrapper);
 
         counters.push({ id: counterId, value: savedValue });
-        updateLocalStorage();
+        updateLocalStorage();//カウンター追加時も保存
         counterId++;
     }
 
