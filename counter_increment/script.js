@@ -45,8 +45,10 @@ document.addEventListener("DOMContentLoaded", function(){
         }
 
         function removeCounter(){
-            const counterWrapper = document.getElementById(`counter-${counterId}`);
-            counterWrapper.remove();
-            counterId--;
+            if(counterId != 0){
+                const counterWrapper = document.getElementById(`counter-${counterId}`);
+                counterWrapper.remove();
+                counterId--;
+            }
         }
 })
