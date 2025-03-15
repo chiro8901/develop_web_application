@@ -1,3 +1,24 @@
 body{
     text-align: center;
 }
+
+.task-wrapper{
+    border: 2px solid #006effbe;
+    border-radius: 10px;
+    
+}
+
+button{
+    background-color: rgb(2, 145, 9);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.task-text{
+    font-size: 1.2em;
+    color: blue;
+    margin: 10px;
+}
